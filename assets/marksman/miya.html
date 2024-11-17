@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miya - Mobile Legends</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000c9;
+    }
+
+    header {
+      background-color: #376ad1;
+      color: #ffffff;
+      text-align: center;
+      padding: 1rem 0;
+      border-radius: 5px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #d3a8a8;
+      box-shadow: 0 4px 8px #0000001a;
+      border-radius: 8px;
+    }
+
+    h1, h3 {
+      color: #333;
+      text-align: center;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .description {
+      margin-top: 20px;
+    }
+
+    .abilities {
+      margin-top: 30px;
+    }
+
+    .abilities h3 {
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px 0;
+      background-color: #282c34;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Login sebagai Marskman</h1>
+    <h3>Miya - Mobile Legends</h3>
+  </header>
+  <div class="container">
+    <img src="https://i.pinimg.com/736x/d2/9c/75/d29c755f89d8a880562856d12eea33df.jpg" alt="Miya - Mobile Legends"
+      class="hero-image">
+    <div class="description">
+      <h2>Deskripsi Hero</h2>
+      <p>
+        Miya adalah seorang Marksman yang terkenal karena kemampuan attack speed dan damage yang tinggi.
+        Dengan serangan jarak jauhnya, Miya sangat kuat dalam pertarungan late game.
+        Skill ultimate-nya memungkinkan Miya untuk kabur dari situasi berbahaya sambil meningkatkan kecepatan serangan.
+      </p>
+    </div>
+    <div class="abilities">
+      <h3>Kemampuan</h3>
+      <ul>
+        <li><strong>Passive - Moon Blessing:</strong> Meningkatkan attack speed setelah menyerang musuh secara
+          berturut-turut.</li>
+        <li><strong>Skill 1 - Fission Shot:</strong> Membuat serangan Miya menyebar ke beberapa target.</li>
+        <li><strong>Skill 2 - Arrow of Eclipse:</strong> Menembakkan panah yang dapat mengikat musuh dalam area
+          tertentu.</li>
+        <li><strong>Ultimate - Hidden Moonlight:</strong> Miya menjadi tak terlihat dan mendapatkan peningkatan
+          kecepatan serangan.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="btn">
+    <button onclick="logout()">LOGOUT</button>
+  </div>
+  <footer>
+    &copy; 2024 Mobile Legends Fan Page
+  </footer>
+  <script>
+    function logout() {
+      localStorage.clear();
+      location.replace("/index.html");
+    }
+  </script>
+</body>
+
+</html>

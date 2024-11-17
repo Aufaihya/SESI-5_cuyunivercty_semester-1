@@ -1,0 +1,62 @@
+*/,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.login {
+  width: 100%;
+  justify-items: center;
+}
+
+#root {
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  border: 1px solid #0000007e;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 0 #00000036;
+  margin-top: 10px;
+}
+
+#root input,
+button,
+h1 {
+  margin: 5px;
+  padding: 5px;
+}
+#root button {
+  background-color: #16aaaa;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  margin: 5px;
+}
+
+#root h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+@media (max-width: 600px) {
+  #root {
+    width: auto;
+    height: auto;
+  }
+}
+
+.items {
+  width: 50%;
+  height: 50vh;
+  background-color: darkorange;
+  grid-area: 2;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruno - Mobile Legends</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a2e;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: #162447;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .hero-details {
+      margin-top: 20px;
+      line-height: 1.8;
+    }
+
+    .skills {
+      margin-top: 30px;
+    }
+
+    .skills h2 {
+      color: #e43f5a;
+      margin-bottom: 15px;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li {
+      background: #162447;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #0f3460;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Login sebagai Marskman</h1>
+    <h3>Bruno - Mobile Legends</h3>
+  </header>
+  <div class="container">
+    <img src="https://rare-gallery.com/resol/2560x1440/393727-bruno-the-falcon-skin-mlbb-mobile-legends-bang-bang.jpg"
+      alt="Beatrix - Mobile Legends" class="hero-image">
+    <div class="hero-details">
+      <h2>Deskripsi Hero</h2>
+      <p>Bruno adalah hero jenis **Marksman** di Mobile Legends yang dikenal dengan serangan berbasis bola sepak. Dengan kemampuan yang mematikan, Bruno dapat mengalahkan musuh dengan serangan jarak jauh yang cepat dan kuat. Meskipun rentan terhadap serangan fisik, kecepatan serangan dan keterampilan dalam menghindar membuatnya sangat efektif dalam pertempuran jarak jauh.</p>
+      <p>Bruno adalah seorang pemain sepak bola yang memiliki semangat juang tinggi. Setelah berbagai tantangan, ia menemukan kekuatannya melalui kecintaannya pada olahraga, menggunakan bola sepak sebagai senjata untuk melawan musuh. Keahlian ini menjadikannya sebagai hero Marksman yang sangat berbahaya.</p>
+    </div>
+    <div class="skills">
+      <h2>Kemampuan</h2>
+      <ul>
+        <li><strong>Pasif:</strong> Ballista! - Pasif Bruno memungkinkan dia untuk memanfaatkan bola yang lebih besar saat menyerang, memberikan efek tambahan pada serangan normalnya.</li>
+        <li><strong>Skill 1:</strong> Masterful Gunner - Mengganti senjata, mengubah mekanisme serangan dan
+          kemampuannya.</li>
+        <li><strong>Skill 2:</strong> Tactical Reposition - Beatrix melakukan dash ke arah yang dipilih,
+          meningkatkan mobilitasnya.</li>
+        <li><strong>Ultimate:</strong> Setiap senjata memiliki ultimate unik yang memungkinkan Beatrix melancarkan
+          serangan mematikan.</li>
+      </ul>
+    </div>
+    <div class="btn">
+      <button onclick="logout()">LOGOUT</button>
+    </div>
+    <footer>
+      &copy; 2024 Mobile Legends Fan Page
+    </footer>
+    <script>
+      function logout() {
+        localStorage.clear();
+        location.replace("/index.html");
+      }
+    </script>
+</body>
+
+</html>
+
+<!-- <img src="https://i.pinimg.com/originals/e0/57/f9/e057f936ffd16d0071f7e7f67f63e89d.jpg" -->
